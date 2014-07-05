@@ -29,11 +29,14 @@ gem 'jbuilder', '~> 1.2'
 
 # Bootstrap
 gem "therubyracer"
-gem 'bootstrap-sass', '2.3.2.0'
-gem 'sprockets', '2.11.0'
+gem 'bootstrap-sass', '~> 3.2.0'
+gem 'autoprefixer-rails'
 
 # TimelineJS
 gem 'timelineJS-rails', '~> 1.1.5'
+
+# Carousel
+gem 'owlcarousel-rails'
 
 gem 'pry'
 

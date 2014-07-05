@@ -12,7 +12,9 @@
 //
 //= require jquery
 //= require jquery_ujs
-//= require bootstrap
+//= require jquery
+//= require bootstrap-sprockets
+//= require owl.carousel
 //= require turbolinks
 //= require timelineJS/embed
 //= require_tree .
