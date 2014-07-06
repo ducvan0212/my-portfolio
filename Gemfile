@@ -38,6 +38,9 @@ gem 'timelineJS-rails', '~> 1.1.5'
 # Carousel
 gem 'owlcarousel-rails'
 
+# font awesome
+gem "font-awesome-rails"
+
 gem 'pry'
 
 group :doc do

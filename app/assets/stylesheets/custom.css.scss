@@ -38,10 +38,28 @@ textarea {
       margin-bottom: 3px;
       margin-top: 5px;
       .nav-pills {
-        li {
+        & > li {
           margin-right: 10px;
           a {
             color: #555;
+            .fa {
+              font-size: 1.5em;
+            }
+          }
+        }
+        li.dropdown {
+          ul.dropdown-menu {
+            padding-bottom: 0px;
+            & > li {
+              display: inline-block;
+              width: 100%;
+              & > a {
+                clear: none;
+                float: left;
+                padding: 3px 14px;
+                margin-left: 6px;
+              }
+            }
           }
         }
         li.active {
